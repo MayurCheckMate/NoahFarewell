@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farewell, Noah!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #4f46e5, #db2777);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .card {
+            background-color: white;
+            border-radius: 1rem;
+            padding: 2rem;
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+        }
+        .section-title {
+            font-size: 2.25rem;
+            font-weight: 800;
+            line-height: 2.5rem;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header Section -->
+    <header class="relative text-white text-center py-20 md:py-32 bg-gray-800">
+        <div class="absolute inset-0 bg-cover bg-center z-0" style="background-image: url('https://placehold.co/1920x1080/334155/ffffff?text=Team+Photo+Here'); background-blend-mode: overlay; background-color: rgba(0,0,0,0.5);"></div>
+        <div class="relative z-10 max-w-4xl mx-auto px-4">
+            <h1 class="text-4xl md:text-6xl font-black uppercase tracking-wider mb-4">Goodbye & Good Luck, Noah!</h1>
+            <p class="text-xl md:text-2xl font-light">From your friends at Airbus & the SOOY23 Team</p>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto p-4 md:p-8">
+
+        <!-- Next Chapter Section -->
+        <section class="my-16 text-center">
+            <h2 class="section-title gradient-text">The Next Chapter: Vienna!</h2>
+            <p class="max-w-3xl mx-auto text-lg text-gray-600 mb-8">We're so excited for your next adventure as you pursue your Master's degree. Vienna is lucky to have you!</p>
+            <div class="rounded-2xl overflow-hidden shadow-2xl max-w-4xl mx-auto">
+                <img src="https://placehold.co/1200x600/a3a3a3/ffffff?text=Beautiful+Vienna" alt="A beautiful landmark in Vienna" class="w-full h-auto object-cover">
+            </div>
+        </section>
+
+        <!-- Future Glimpse Gallery -->
+        <section class="my-24">
+             <h2 class="section-title text-gray-800">A Glimpse into Your Future...</h2>
+             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="card p-0 overflow-hidden">
+                    <img src="https://placehold.co/600x400/818cf8/ffffff?text=Studying" alt="Students studying in a library" class="w-full h-48 object-cover">
+                    <p class="p-4 font-semibold text-center">Late Night Studies</p>
+                </div>
+                 <div class="card p-0 overflow-hidden">
+                    <img src="https://placehold.co/600x400/f472b6/ffffff?text=Campus+Life" alt="Students laughing in a cafe" class="w-full h-48 object-cover">
+                    <p class="p-4 font-semibold text-center">Campus Cafes</p>
+                </div>
+                 <div class="card p-0 overflow-hidden">
+                    <img src="https://placehold.co/600x400/fbbf24/ffffff?text=Exploring" alt="Student exploring a European city" class="w-full h-48 object-cover">
+                    <p class="p-4 font-semibold text-center">City Adventures</p>
+                </div>
+                 <div class="card p-0 overflow-hidden">
+                    <img src="https://placehold.co/600x400/34d399/ffffff?text=Graduation" alt="Students throwing graduation caps" class="w-full h-48 object-cover">
+                    <p class="p-4 font-semibold text-center">The Big Day!</p>
+                </div>
+             </div>
+        </section>
+
+        <!-- Student's Dictionary Section -->
+        <section class="my-24 bg-gray-100 py-16 rounded-2xl px-4">
+            <h2 class="section-title text-gray-800">A Student's Secret Dictionary</h2>
+            <p class="max-w-3xl mx-auto text-center text-lg text-gray-600 mb-12">We heard student life has its own language. Here's a cheat sheet we prepared for you.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <!-- Column 1 -->
+                <div class="space-y-6">
+                    <div class="card text-center">
+                        <p class="text-2xl font-bold gradient-text">VIE</p>
+                        <p class="text-gray-600">Very Important Exam</p>
+                    </div>
+                    <div class="card text-center">
+                        <p class="text-2xl font-bold gradient-text">CMPM</p>
+                        <p class="text-gray-600">Chillig mal Pause machen</p>
+                    </div>
+                    <div class="card text-center">
+                        <p class="text-2xl font-bold gradient-text">APU</p>
+                        <p class="text-gray-600">Alle Professoren untauglich</p>
+                    </div>
+                    <div class="card text-center">
+                        <p class="text-2xl font-bold gradient-text">CFM</p>
+                        <p class="text-gray-600">Can't Find Manuscript</p>
+                    </div>
+                     <div class="card text-center">
+                        <p class="text-2xl font-bold gradient-text">EASA</p>
+                        <p class="text-gray-600">Ein Anderer schreibt’s ab</p>
+                    </div>
+                </div>
+                <!-- Column 2 -->
+                <div class="space-y-6">
+                    <div class="card text-center">
+                        <p class="text-2xl font-bold gradient-text">ATA</p>
+                        <p class="text-gray-600">Always Trying Again</p>
+                    </div>
+                    <div class="card text-center">
+                        <p class="text-2xl font-bold gradient-text">PN</p>
+                        <p class="text-gray-600">Procrastination's Noah</p>
+                    </div>
+                    <div class="card text-center">
+                        <p class="text-2xl font-bold gradient-text">FAL</p>
+                        <p class="text-gray-600">Früh Aufstehen, LoL</p>
+                    </div>
+                    <div class="card text-center">
+                        <p class="text-2xl font-bold gradient-text">MSN</p>
+                        <p class="text-gray-600">Müde Schlapp Nimmer</p>
+                    </div>
+                    <div class="card text-center">
+                        <p class="text-2xl font-bold gradient-text">OoP</p>
+                        <p class="text-gray-600">Ohne ordentliche Prüfungsvorbereitung</p>
+                    </div>
+                </div>
+                <!-- Column 3 -->
+                <div class="space-y-6">
+                    <div class="card text-center">
+                        <p class="text-2xl font-bold gradient-text">AUT</p>
+                        <p class="text-gray-600">Always Unplanned Tests</p>
+                    </div>
+                    <div class="card text-center">
+                        <p class="text-2xl font-bold gradient-text">DDMS</p>
+                        <p class="text-gray-600">Delay Due to Mensa Schlange</p>
+                    </div>
+                    <div class="card text-center">
+                        <p class="text-2xl font-bold gradient-text">MOD</p>
+                        <p class="text-gray-600">Master of Deadlines</p>
+                    </div>
+                    <div class="card text-center">
+                        <p class="text-2xl font-bold gradient-text">AMM</p>
+                        <p class="text-gray-600">Academic Master's Mind</p>
+                    </div>
+                    <div class="card text-center">
+                        <p class="text-2xl font-bold gradient-text">MPD</p>
+                        <p class="text-gray-600">Major Priority: Degree</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Acronyms For You -->
+        <section class="my-24">
+            <h2 class="section-title text-gray-800">But Seriously, Here's What You Mean to Us</h2>
+            <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div class="card">
+                    <p class="text-5xl mb-4">👏</p>
+                    <p class="text-xl font-bold text-indigo-600">FIN</p>
+                    <p class="text-gray-600 mt-1">Fantastic & Indispensable Noah</p>
+                </div>
+                <div class="card">
+                    <p class="text-5xl mb-4">🥳</p>
+                    <p class="text-xl font-bold text-pink-600">ICY</p>
+                    <p class="text-gray-600 mt-1">I'm Celebrating You</p>
+                </div>
+                <div class="card">
+                    <p class="text-5xl mb-4">✍️</p>
+                    <p class="text-xl font-bold text-amber-600">IPC</p>
+                    <p class="text-gray-600 mt-1">Intensive Project & Coursework</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- From All of Us Section -->
+        <section class="my-16">
+            <div class="card lg:flex lg:items-center max-w-5xl mx-auto">
+                <div class="lg:w-1/2 lg:pr-12 mb-8 lg:mb-0">
+                     <h2 class="text-3xl font-bold text-gray-800 mb-4">From All of Us at SOOY23</h2>
+                     <p class="text-lg text-gray-600 leading-relaxed">
+                         Thank you for everything, Noah. For your hard work, your dedication, and for being an amazing colleague and friend. The SOOY23 team and all of us at Airbus will miss you! We're incredibly proud of you and can't wait to see all that you accomplish.
+                     </p>
+                </div>
+                <div class="lg:w-1/2">
+                    <div class="rounded-lg overflow-hidden shadow-lg">
+                        <img src="https://placehold.co/600x400/52525b/ffffff?text=Another+Team+Photo" alt="SOOY23 team photo" class="w-full h-auto object-cover">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-12">
+        <h2 class="text-4xl font-black mb-2">Best of Luck in Vienna!</h2>
+        <p class="text-lg text-gray-300">Don't be a stranger!</p>
+    </footer>
+
+</body>
+</html>
