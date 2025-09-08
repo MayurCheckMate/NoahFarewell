@@ -1,10 +1,4 @@
-Of course. I've integrated the heartfelt and humorous messages from your colleagues into a new, beautifully styled section called "Messages from the Team".
 
-This new section uses the same "card" design as the rest of the page to create a seamless and visually appealing collage of farewell notes. I've placed it right after the "But Seriously, Here's What You Mean to Us" section, as it's the perfect place for personal messages.
-
-Here is the complete HTML for the webpage with the new section included. You can copy and paste this entire code into an `.html` file and open it in your browser.
-
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
